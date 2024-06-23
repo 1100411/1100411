@@ -4,7 +4,7 @@
 在最後面備註的地方，有紀錄一些自己遇到的問題以及解決方法
 
 ### 步驟
-## 1
+## 1*
 下載好檔案至home\user\catkin_ws\src，先執行第一個指令
 
 `roslaunch myrobot_1100411_description gazebo.launch`
@@ -20,7 +20,7 @@
 
 左側Global Options的Fixed Frame更改為base_link
 
-## 3
+## 3*
 執行
 
 `roslaunch myrobot_1100411_description mapping.launch`
@@ -44,7 +44,7 @@ LaserScan的Topic改成/scan，Size改成0.05
 
 就可以開始掃描
 
-## 7
+## 7*
 執行
 
 `rosrun map_server map_saver -f myrobot_map`
